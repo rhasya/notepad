@@ -2,15 +2,18 @@
 note many information
 
 ## AWS
-### install docker for arm cpu
+### Docker
+* install docker for arm cpu
 ```shell
 $ sudo yum install docker.aarch64
 ```
-### postprocess
+
+* postprocess
 ```shell
 $ sudo usermod -aG docker $USER
 ```
-### run docker
+
+* run docker
 ```shell
 sudo systemctl start docker
 ```
